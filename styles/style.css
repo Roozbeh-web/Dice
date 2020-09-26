@@ -1,0 +1,230 @@
+body{
+    background-color: #BBF2BD;
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar section*/
+
+#navbar{
+    background-color: #0DABFF;
+    padding-bottom: 60px;
+}
+
+.header{
+    padding-top: 20px;
+}
+
+.logo-container{
+    float: right;
+    display: inline;
+    position: relative;
+    padding-right: 23px;
+}
+
+
+.header-text{
+    float: right;
+    display: inline-block;
+    margin-top: 0;
+    font-size: 3rem;
+    font-family: 'El Messiri', sans-serif;
+    margin-bottom: 0;
+    padding-right: 14px;
+}
+
+.links{
+    padding-left: 20px;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+a{
+    padding: 0 15px;
+    text-decoration: none;
+    color: #fcf6f6;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.2rem;
+}
+
+.menu-img{
+    display: none;
+}
+
+/*main section*/
+
+#main{
+    text-align: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    align-items: center;    
+}
+
+.main-text{
+    font-family: 'El Messiri', sans-serif;
+    color: #ce4112;
+    font-size: 4rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.roll-btn{
+    background-color: #ce4112;
+    width: 10%;
+    margin-left: 45%;
+    padding: 0.8% 0;
+    border-radius: 15%;
+    box-shadow: 2px 2px rgba(128, 128, 128, 0.397);
+    font-family: 'Cairo', sans-serif;
+    cursor: pointer;
+}
+
+.roll-btn:hover{
+    background-color: #ecd929;
+}
+
+.activate{
+    color: #3d3c3c;
+}
+
+/*about page*/
+
+#main-about{
+    align-items: right;
+    text-align: right;
+    padding-right: 70px;
+    font-family: 'El Messiri', sans-serif;
+    color: #ce4112;
+    margin-top: 40px;
+}
+
+.about-p{
+    color: #3d3c3c;
+    line-height: 2.1rem;
+}
+
+/*contact page*/
+
+#main-contact{
+    align-items: center;
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+    color: #ce4112;
+    margin-top: 40px;
+}
+
+.insta-container{
+    margin-top: 40px;
+}
+
+.insta-link{
+    display: inline;
+    position: relative;
+    bottom: 13px;
+    color: #db3265;
+    font-family: 'Righteous', cursive;
+}
+
+.tele-container{
+    margin-top: 20px;
+}
+
+.tele-img{
+    margin-right: 9px;
+}
+
+.tele-link{
+    display: inline;
+    position: relative;
+    bottom: 13px;
+    color: #0b618a;
+    font-family: 'Righteous', cursive;
+}
+
+@media screen and (max-width: 600px){
+
+    .logo-container{
+        float: right;
+        display: inline-block;
+        position: relative;
+        padding-right: 15px;
+    }
+
+    .logo-img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .header-text{
+        display: inline-block;
+        margin-top: 0;
+        font-size: 2rem;
+        font-family: 'El Messiri', sans-serif;
+        margin-bottom: 0;
+    }
+
+    .menu-img{
+        float: left;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        padding-left: 13px;
+        padding-top: 7px;
+        cursor: pointer;
+    }
+    
+    .links{
+        display: none;
+        margin-top: 50px;
+        text-align: right;
+    }
+
+    .visible{
+        display: block;
+        animation: 3s ease-in 1s infinite reverse both running slidein;
+    }
+
+    .main-text{
+        font-family: 'El Messiri', sans-serif;
+        color: #ce4112;
+        font-size: 3rem;
+        margin-top: 1%;
+        margin-bottom: 3%;
+    }
+
+    .main-img{
+        width: 240px;
+        height: 240px;
+    }
+
+    .roll-btn{
+        background-color: #ce4112;
+        width: 27%;
+        margin-left: 35%;
+        padding: 0.8% 0;
+        border-radius: 15%;
+        box-shadow: 2px 2px rgba(128, 128, 128, 0.397);
+        font-family: 'Cairo', sans-serif;
+        cursor: pointer;
+    }
+
+    #main-about{
+        align-items: center;
+        text-align: center;
+        padding-right: 0;
+        font-family: 'El Messiri', sans-serif;
+        color: #ce4112;
+        margin-top: 40px;
+    }
+}
+
+.copyright{
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    color: #747474;
+}
+
